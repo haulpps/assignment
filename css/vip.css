@@ -1,0 +1,100 @@
+/* Hide the images by default */
+.mySlides:hover{
+  background: #4F4E52 url('images/back.png') repeat;
+}
+.mySlides {
+    display: none;
+    background-color: black;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 174px;
+    border-radius: 3px 0 0 3px;
+    top:280px
+  }
+  .prev{
+    top:280px
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f7f5f5b4;
+    font-size: 18px;
+    
+    position: absolute;
+    top: 400px;
+    width: 1000px;
+    text-align: center;
+    
+    
+  } 
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #690808fd;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 200x;
+    right: 240px;
+  }
+  .text:hover{
+      background-color: rgba(245, 167, 167, 0.562);
+      color: black;
+  }
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  

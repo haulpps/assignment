@@ -1,0 +1,174 @@
+.layout{
+    max-width: 1000px;
+    margin: 0 auto ;
+    position: relative;
+
+    
+
+}
+header{
+   
+    background-color: rgb(141, 136, 136);
+   
+    height: 10px;
+    padding-bottom: 4%; 
+    display:block;
+margin: 0px 0px 8px ;
+
+    
+   }
+  .logo {
+      margin: 0px;
+      position:absolute;
+       top: -10px;
+       left:150px;
+   }
+   html{
+       background-color: rgb(47, 47, 47);
+   }
+
+   .menu>ul>li{ 
+    position: relative;
+    display: inline-block;}
+.menu>ul>li>a{
+    
+    display: block;
+    text-decoration: none;
+  
+    font-family:'lucida sans' ;
+    font-size: larger;
+    color: rgb(255, 251, 251);
+    padding: 0 10px;
+    line-height: 40px;  }
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: rgb(5, 5, 5);
+    text-align: center;}
+.menu>ul>li>a:hover{
+    color:rgb(246, 117, 117);}
+.menu ul ul {
+        position: absolute;
+        display: none;   
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        border-radius: 3px;
+        width: 120px;
+        background-color: rgba(73, 69, 69, 0.616);
+        box-shadow: 0 0 1px rgba(51, 50, 50, 0.884), 0.863;
+        text-align: left;}  
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: rgb(251, 249, 248);
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;}
+.menu>ul>li:hover>ul{
+    display: block;
+    z-index: 1;
+}
+.menu ul ul a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+.info{
+    position: absolute;
+            left: 15px;
+            top: 0px;  
+            font-variant:small-caps; 
+            font-size: 20px;
+            word-spacing: 2px;
+            letter-spacing: 1px;
+            line-height: 5px;   
+            text-decoration: orangered;}
+            .container-1{
+                width: 300px;
+                vertical-align: middle;
+                white-space: nowrap;
+                position: relative;
+              }
+.login{
+    
+    top:0px;
+    
+
+}
+.box{
+    color: white;
+    margin: 20px;
+    background-color: rgba(36, 36, 36, 0.658);
+    width: 70px;
+    height: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 10px;
+    border:1px  solid black;
+    text-decoration: none;        
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 5px 5px;
+    font-size: 13px;
+    position: absolute;
+    right: 34%;
+    text-align:center;
+    top: 0px;
+}
+.box:hover{
+    background-color: rgba(36, 36, 36, 0.233)
+}
+.box2{color: white;
+    margin: 20px;
+    background-color: rgba(36, 36, 36, 0.658);
+    width: 70px;
+    height: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 10px;
+    border:1px  solid black;
+    text-decoration: none;        
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 5px 5px;
+    font-size: 13px;
+    position: absolute;
+    right: 27%;
+    text-align:center;
+    top: 0px;
+}
+.box2:hover{
+    background-color: rgba(36, 36, 36, 0.233)
+}
+    .box3{            
+        margin: 20px;
+        background-image: url('images/qq.webp') center left 10px no-repeat;
+        background-color: rgba(6, 25, 78, 0.904);
+        
+        
+        width:165px ;
+        height: 20px;
+       bottom: auto;
+        font-family:Arial, Helvetica, sans-serif;
+        padding: 10px;
+        border:1px  solid black;
+        text-decoration: none;        
+        box-shadow: 0px 0px 5px gray;
+        border-radius: 5px 5px;
+        font-size: 13px;
+        position: absolute;
+        top: 0px;
+        right: 12%;
+        text-align: center;
+        background-size:100% 100%;
+        }
+        .box3:hover{
+            background-color: rgba(6, 25, 78, 0.377);
+        }
+.login>div>a{
+     color: white;
+     text-decoration: none; 
+    }
+ 

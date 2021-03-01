@@ -1,0 +1,30 @@
+
+.container-1{
+    bottom: 10px;
+    margin: 0px 450px 5px ;
+    
+    border-radius: 10px 5px 5px 5px;
+    width: 350px;
+    
+    white-space: nowrap;
+    position: absolute;
+   
+  }
+  .container-1 input#search{
+    width: 300px;
+    height: 44px;
+    background: #050505;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #fafafa;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5000px ;
+    margin-top: 20px;
+   
+  }
+  .container-1 input#search:hover{background: #050505c7;
+
+  }

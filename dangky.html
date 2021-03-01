@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="stylesheet" href="css/seach.css">
+    <link rel="stylesheet" href="css/vip.css">
+    <link rel="stylesheet" href="css/2.css">
+    <link rel="stylesheet" href="css/3.css">
+    <link rel="stylesheet" href="css/fotter.css">
+    <link rel="stylesheet" href="css/dangky.css">
+    <title>JinWooAnime.com|AnimeHD|Manga|Music</title>
+    <link href="css/1.css" rel="stylesheet">
+    <div class="container-1">
+        <span class="icon"><i class="fa fa-search"></i></span>
+        <input type="search" id="search" placeholder="Tìm:tên anime..." />
+    </div>
+  </head>
+    <header>
+        <nav class="login"> 
+          <a href="dangKy.html"> 
+            <div class="box">
+          Đăng Ký</div></a> 
+          <a href="dangNhap.html">
+           <div class="box2">
+               
+               Đăng Nhập</div></a>
+               
+
+               <div class="box3">
+           <a href="fb.html"  >Đăng nhập bằng Facebook</a></div>
+               
+        </nav>
+    
+        </header>
+        
+        <nav class="menu">
+          <ul>
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a>Thể loại</a>
+          <ul>
+              <li><a href="harem.html">Harem</a></li>        
+          <li><a href="phieuluu.html">Phiêu Lưu</a></li>
+          <li><a href="fantasy.html">Fantasy</a></li>
+          
+       
+          </ul></li>
+       <li><a>Trạng Thái</a>
+      <ul>
+          <li><a href="finish.html">Hoàn Thành</a></li>
+          <li><a href="dth.html">Đang Tiến Hành</a></li>
+      </ul></li>  
+      <li> <a>Xem Nhiều</a>
+          <ul>
+              <li><a href="day.html">Ngày</a></li>
+              <li><a href="week.html">Tuần </a></li> 
+   
+          </ul> </li> 
+          <li><a>Bình Luận Nhiều</a>
+              <ul>
+          <li><a href="muanay.html">Mùa này</a></li>
+          <li><a href="namnay.html">Năm Này</a></li>
+      </ul> </li>
+      </nav>
+        
+        
+            <div style="max-width: 1000px; margin: 0 auto;">
+<!-- Slideshow container -->
+
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <a>
+    <div class="mySlides fade">
+      <div class="numbertext">7/??</div>
+      <img src="images/4.webp"style="width: 100%;height:300px;">
+      <div class="text">Chuyển sinh thành silme</div>
+    </div>
+  </a>
+  <a>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">7/??</div>
+      <img src="images/3.jpg" style="width:100%;height: 300px;">
+      <div class="text">THẤT NGHIỆP CHUYỂN SINH: LÀM LẠI CUỘC ĐỜI</div>
+    </div>
+  </a>
+  <a href="">
+    <div class="mySlides fade">
+      <div class="numbertext">31/??</div>
+      <img src="images/2.jpg" style="width:100%;height: 300px;">
+      <div class="text">Solo Leveling</div>
+    </div>
+  </a>
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    
+    </script>
+            <div class="layout">
+
+
+
+    <article>
+        <div class="lang-box">     
+            <br>
+            <br>                                                   
+        <label style=" color: white; margin-left: 100px; "> Tài khoản</label><br/>
+       <p class="khung4" >
+       <input  type="text" name="username" class="form-control4"      
+         style="margin-left: 50px; color: rgb(255, 255, 255);"></p>   
+   <br>
+   <br>
+       <label style=" color: white; margin-left: 105px; "> Mật khẩu</label><br/>
+       <p class="khung5" style=" position: absolute;left: 140px; top: 70px;">
+           <input  type="text" name="username" 
+            class="form-control5" style="margin-left: 50px;"/></p>                   
+               <br>   
+               <br> 
+    <label style=" color: white; margin-left: 43px; 
+    "> Xác nhận mật khẩu</label><br/>
+               <p class="khung6" style=" position: absolute;left: 50px; top: 130px;">
+                   <input  type="text" name="username" 
+                    class="form-control6" style="margin-left: 140px;"/></p>          
+                    <br>
+                    <br>
+     <label style=" color: white; margin-left: 130px; 
+    "> Email</label><br/>
+               <p class="khung7" style=" position: absolute;left: 50px; top: 180px;">
+                   <input  type="text" name="username" 
+                    class="form-control7" style="margin-left: 140px;"/></p>     
+                    <br>
+                    <br>
+               <a href="file:///E:/bai%20dacap/assignmentGD2_PhamTrinhAnNguyen/html/Index.html">
+                   <button  type="sumit" class="dk" >Đăng Ký </button></a>  
+                   <div class="mka" style="color: white;">
+                       c59
+                   </div>   
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+    <label style=" color: white; margin-left: 80px; margin-top: 55px;"> Mã xác nhận</label><br/>      
+    <p class="khung8" >
+       <input  type="text" name="username" class="form-control8"
+placeholder="Nhập mã xác nhận" style="margin-left: 50px; color: rgb(255, 255, 255);"/></p>  
+           </div>
+         
+          
+</article>
+    
+    <aside>
+        <ul  class="vmenu"  >
+          <li class="vip1" ><a href="mt.html">
+            <div class="top"> 7/??</div>
+            <div class="anh2" style="background:url('images/4.webp')"></div>
+          <div class="textbox">
+            <div class="vipa">cHUYỂN SINH THÀNH SLIME</div>
+            <div class="vipb">TENSEI SHITARA SLIME DATTA KEN</div>
+            <div class=""></div>
+          </div>
+          </a>
+          </li>
+        <li class="den" ><a href="mt.html">
+          <div class="top"> 9/??</div>
+          <div class="anh" style="background-image:url('images/thatnghiep.jpg')"></div>
+        <div class="textbox">
+          <div class="a">Thất Nghiệp Chuyển Sinh: Làm lại cuộc đời</div>
+          <div class="b">Mushoku Tensei: ...</div>
+          <div class="c">9.8</div>
+        </div>
+        </a>
+        </li>
+        <li class="xam" ><a href="mt.html">
+          <div class="top"> 9/??</div>
+          <div class="anh" style="background-image:url('images/ATt.jpg')"></div>
+        <div class="textbox">
+          <div class="a">ATTACK ON TITAN FINAL SEASON</div>
+          <div class="b">ATTACK ON TITAN FINAL SEASON</div>
+          <div class="c">9.8</div>
+        </div>
+        </a>
+        </li>
+        <li class="den" ><a href="mt.html">
+          <div class="top"> 9/??</div>
+          <div class="anh" style="background-image:url('images/solo.jpg')"></div>
+        <div class="textbox">
+          <div class="a">Truyện Solo leveling</div>
+          <div class="b">Solo leveling</div>
+          <div class="c">9.8</div>
+        </div>
+        </a>
+        </li>
+        <li class="xam" ><a href="mt.html">
+          <div class="top"> 9/??</div>
+          <div class="anh" style="background-image:url('images/Jujutsu Kaisen.jpg')"></div>
+        <div class="textbox">
+          <div class="a">Jujutsu Kaisen</div>
+          <div class="b">Jujutsu Kaisen</div>
+          <div class="c">9.5</div>
+        </div>
+        </a>
+        </li>
+        
+    </ul>
+
+</aside>
+
+
+</div>
+</div>
+
+<footer>
+  <div class="footer">
+
+  </div>
+</footer>
+
+
+
+
+</html>
+
+

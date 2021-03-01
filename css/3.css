@@ -1,0 +1,99 @@
+
+    
+
+.ulphim{
+    list-style-type: none;
+    
+    padding: 0;
+    margin-top: 2;
+    margin-bottom: 10px;
+}
+.ulphim>li{
+    display: inline-block ;
+    margin-right: 1%;
+    margin-bottom: 10px ;
+    width: 24%;
+    float: left;
+    
+   }
+
+.link{
+    width: 100% ;
+    display: block;
+    color: #46E1FF;
+    text-decoration: none;
+}
+.warpper{
+    position: relative;
+    padding: 0;
+    background: #4F4E52 ;
+    border-bottom: 1px solid #000;
+    color: #ddd;
+    height: auto;
+    display: block;
+}
+.imgbox{
+    width: 100% ;
+    height: 200px;
+}
+.imgz{
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.movie-meta{
+    margin: 5px;
+
+}
+.movie-title-1{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    color: #eee7e7;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.movie-title-1:hover{
+    color: rgb(186, 226, 106);
+}
+.fbcom-left{
+    background:  0px 2px rgba(0, 0, 0, 0);
+    color: #fff;
+    font-size: 11px;
+    padding-left: 15px;
+    display: block;
+    font-weight: bold;
+}
+.viewed-right{
+    background:   0px 2px rgba(0, 0, 0, 0);
+    color: #fff;
+    font-size: 11px;
+    padding-left: 15px;
+    display: block;
+    font-weight: bold;
+    float: right;
+    margin-top: -15px;
+}
+.ribbon{
+    position: absolute;
+    color: #fff;
+    background: #811204;
+    font-size: 11px;
+    font-weight: bold;
+    
+    clear: both;
+    padding: 3px 6px;
+    left: 5px;
+    top: 5px;
+    white-space: nowrap;
+    display: inline-block;
+    border-radius: 4px;
+}
